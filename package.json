@@ -6,7 +6,7 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "start:api": "npx json-server --watch db.json",
+    "start:api": "npx json-server-auth --watch db.json",
     "test": "ng test"
   },
   "private": true,
