@@ -1,4 +1,7 @@
 {
+    "users": [
+        { "id": 1, "username": "Flavian", "password": "Blop"}
+    ],
     "shops": [
         { "id": 1, "name": "TFDev", "location": "Charleroi" }
     ],

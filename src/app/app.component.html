@@ -1,4 +1,10 @@
 <ul>
     <li><a routerLink="/product">Product</a></li>
+    <ng-container *ngIf="!user; else connectedMenu">
+        <li><a (click)="handleLoginAction()">Connexion</a></li>
+    </ng-container>
+    <ng-template #connectedMenu>
+        <li><a (click)="handleLogoutAction()">Deconnexion</a></li>
+    </ng-template>
 </ul>
 <router-outlet></router-outlet>
