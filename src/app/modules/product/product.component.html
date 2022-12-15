@@ -1,0 +1,5 @@
+<select (change)="handleShopChange($event)">
+    <option disabled selected>Selectionner le magasin</option>
+    <option *ngFor="let shop of shops" [value]="shop.id">{{ shop.name }}</option>
+</select>
+<router-outlet></router-outlet>

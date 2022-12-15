@@ -1,0 +1,40 @@
+{
+    "shops": [
+        { "id": 1, "name": "TFDev", "location": "Charleroi" }
+    ],
+    "stocks": [
+        {
+            "shopId": 1,
+            "productId": 1,
+            "qtt": 42
+        },
+        {
+            "shopId": 1,
+            "productId": 1,
+            "qtt": 42
+        },
+        {
+            "shopId": 1,
+            "productId": 1,
+            "qtt": 42
+        },
+        {
+            "shopId": 1,
+            "productId": 1,
+            "qtt": 42
+        },
+        {
+            "shopId": 1,
+            "productId": 1,
+            "qtt": 42
+        },
+        {
+            "shopId": 1,
+            "productId": 1,
+            "qtt": 42
+        }
+    ],
+    "products": [
+        { "id": 1, "title": "Produit 1", "description": "DESC", "price": 42}
+    ]
+}
